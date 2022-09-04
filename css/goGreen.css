@@ -170,6 +170,22 @@
     background-size: cover;
 }
 
+.pinterest {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: url(/works/goGreen/img/pinterest.png) no-repeat;
+    background-size: cover;
+}
+
+.mail {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: url(/works/goGreen/img/mail.png)  no-repeat;    
+    background-size: cover;
+}
+
 .wa {
     height: 48px;
     width: 48px;
@@ -298,7 +314,7 @@
     left: 0;    
 }
 
-.about-child-1 {
+.about-info-1 {
     width: auto;
     height: 546px;
     display: flex;
@@ -307,37 +323,39 @@
     padding-top: 151px;
 }
 
-h1 {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 58px;
-    z-index: 1;
+.about-text {
+    height: 100%;
+    width: 100%;
 }
 
-p {
-    font-weight: 400;
-    font-size: 24px;
-    color: #545454;
+.about-text > p {
     margin: 24px 0 5px 0;
-    line-height: 43px;
 }
 
-.about-child-2 {
+.about-info-2 {
     width: auto;
     height: 648px;
-    background-image: url(/works/goGreen/img/about-top2.png);
-    background-size: auto 130%;
-    background-repeat: no-repeat;
-    background-position: -50px -250px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
+    position: relative;
+}
+
+.about-info-2::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(/works/goGreen/img/about-top2.png);
+    background-size: auto 130%;
+    background-repeat: no-repeat;
+    background-position: 0 -250px;
     opacity: 50%;
 }
 
-.about-child-3 {
-    width: 1080px;
+.join-us {
+    width: 1000px;
     height: 294px;
     margin: 68px auto 80px;
     background-color: #DAFFD4;
@@ -347,26 +365,184 @@ p {
     flex-wrap: wrap;
 }
 
-h2 {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 58px;
+.about-info-4 {
+    width: auto;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-.about-child-4 {
-    width: auto;
-    height: 825px;
+.about-info-4::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-image: url(/works/goGreen/img/about-top3.png);
     background-size: auto 150%;
     background-repeat: no-repeat;
-    background-position: bottom right -250px;
+    background-position: bottom right -200px;
+    opacity: 50%;
+}
+
+/* services */
+
+.services {
     display: flex;
     flex-direction: column;
-    opacity: 50%;
+}
+
+.services > .container {
+    width: 1297px;
+}
+
+/* services header */
+
+.services-info-1 {
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-info-header {
+    text-align: center;
+    position: relative;
+}
+.services-info-header > h1 > span {
+    color: #7DA85D;
+}
+
+.services-header-utility {
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+    align-self: center;
+}
+
+.services-header-utility > p {
+    text-align: center;
+    flex-grow: 1;
+    margin: 0 44px;
+}
+
+.service-line {
+    width: 183px;
+    height: 50%;
+    border-bottom: 1px solid #545454;
+    align-self: flex-start;
+}
+
+/* services info */
+
+.services-info-body {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-body-picture {
+    height: 560px;
+    width: 424px;
+    display: flex;
+    justify-content: center;
+    background-image: url(/works/goGreen/img/service-plant.png);
+    background-size: 150% auto;
+    background-repeat: no-repeat;
+    background-position: left -100px top 20px;
+    position: relative;
+}
+
+.services-body-picture::before {
+    content: "";
+    width: 313px;
+    height: 560px;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(125,168,93,0.06) 0%, rgba(255,255,255,0.38) 100%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* services testimonials */
+
+.testimonials {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.testimonials > .service-line {
+    align-self: center;
+    margin: 40px auto 28px;
+}
+
+.testimonial {
+    width: 100%;
+    height: auto;
+    background-color: #DAFFD4;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 54px;
+}
+
+.testimonial-photo {
+    width: 280px;
+    height: 280px;
+    background-image: url(/works/goGreen/img/testamental-photo.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    height: 280px;
+    width: 804px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* utility */
 
 .hide {
     display: none;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    z-index: 1;
+    border: none;
+    font-family: 'Lora';
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 14px auto 6px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #545454;
+    line-height: 43px;
+    border: none;
 }

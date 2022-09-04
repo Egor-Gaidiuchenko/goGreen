@@ -164,7 +164,7 @@
     }
 }
 @media screen and (max-width: 600px) {
-    .about-child-1 {
+    .about-info-1 {
         height: auto;
         padding-top: 0;
     }
@@ -173,52 +173,196 @@
 /* about 2 */
 
 @media screen and (max-width: 600px) {
-    .about-child-2 {
+    .about-info-2 {
         height: auto;
     }
 }
 @media screen and (max-width: 450px) {
-    .about-child-2 {
+    .about-info-2 {
         background-size: 100% auto;
+    }
+
+    .about-info-2::before {
+        background-size: cover;
+        background-position: bottom left -150px;
     }
 }
 @media screen and (max-width: 350px) {
-    .container {
-        width: 200px;
+    .about-info-2::before {
+        background-size: cover;
+        background-position: bottom left -230px;
     }
 }
 
 /* about 3 */
 
 @media screen and (max-width: 1100px) {
-    .about-child-3 {
+    .join-us {
         width: 800px;
     }
 }
 @media screen and (max-width: 900px) {
-    .about-child-3 {
+    .join-us {
         width: 600px;
+    }
+
+    .join-us > p {
+        margin: 24px 10px 5px;
+    }
+
+    .join-us > .join-button {
+        margin-top: 10px;
     }
 }
 @media screen and (max-width: 600px) {
-    .about-child-3 {
+    .join-us {
         width: 400px;
     }
 }
 @media screen and (max-width: 450px) {
-    .about-child-3 {
+    .join-us {
         width: 300px;
     }
+
+    .join-us > .join-button {
+        margin-top: 20px;
+    }
     
-    .about-child-3 > p {
+    .join-us > p {
         display: none;
     }
 }
 @media screen and (max-width: 350px) {
-    .about-child-3 {
+    .join-us {
         width: 200px;
     }
-    .about-child-3 > h2 {
+    .join-us > h2 {
         font-size: 34px;
+    }
+}
+
+/* about 4 */
+
+@media screen and (max-width: 600px) {
+    .about-info-4 {
+        height: auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .about-info-4 {
+        background-size: 100% auto;
+    }
+
+    .about-info-4::before {
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 350px) {
+    .about-info-4 > .about-text > h1 {
+        font-size: 34px;
+    }
+
+    .about-info-4::before {
+        background-size: cover;
+        background-position: bottom left -190px;
+    }
+}
+
+/* services */
+
+/* services info 1 */
+
+/* @media screen and (max-width: 1100px) {
+    .container {
+        width: 800px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .container {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .container {
+        width: 200px;
+    }
+} */
+
+/* testimonials */
+
+@media screen and (max-width: 1300px) {
+    .services > .container {
+        width: 1100px;
+    }
+
+    .testimonial-text {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .services > .container {
+        width: 800px;
+    }
+
+    .testimonial-text {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .services > .container {
+        width: 600px;
+    }
+
+    .testimonial {
+        flex-direction: column;
+    }
+
+    .testimonial-photo {
+        margin: 0;
+    }
+
+    .testimonial-text {
+        width: auto;
+    }
+
+    .testimonial-text > h1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .services > .container {
+        width: 400px;
+    }
+
+    .testimonial-text {
+        height: auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .services > .container {
+        width: 300px;
+    }
+
+    h3 {
+       font-size: 50px; 
+    }
+}
+@media screen and (max-width: 350px) {
+    .services > .container {
+        width: 200px;
+    }
+
+    h3 {
+        font-size: 30px; 
     }
 }
