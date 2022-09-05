@@ -396,14 +396,14 @@
     width: 1297px;
 }
 
-/* services header */
-
-.services-info-1 {
+.services-info {
     height: 920px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* services header */
 
 .services-info-header {
     text-align: center;
@@ -439,6 +439,7 @@
 
 .services-info-body {
     width: 100%;
+    height: auto;
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
@@ -465,6 +466,99 @@
     border-radius: 50%;
     z-index: -1;
 }
+
+/* working points */
+
+.points-first,
+.points-last {
+    width: 422px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.points-first {
+    text-align: right;
+}
+
+.points-last {
+    text-align: left;
+}
+
+.service-point {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.point-text {
+    width: 302px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.point-text > p {
+    line-height: 20px;
+}
+
+.point-icon {
+    width: 96px;
+    height: 96px;
+    background-color: #CFCFCF;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wind-point {
+    height: 72px;
+    width: 72px;
+    background: url(/works/goGreen/img/wind.png) no-repeat;
+    background-size: contain;
+}
+
+.eco-point {
+    height: 72px;
+    width: 72px;
+    background: url(/works/goGreen/img/eco.png) no-repeat;
+    background-size: contain;
+}
+
+.protect-point {
+    height: 54px;
+    width: 54px;
+    background: url(/works/goGreen/img/protect.png) no-repeat;
+    background-size: contain;
+}
+
+.water-point {
+    height: 72px;
+    width: 72px;
+    background: url(/works/goGreen/img/water.png) no-repeat;
+    background-size: contain;
+}
+
+.recycle-point {
+    height: 72px;
+    width: 72px;
+    background: url(/works/goGreen/img/recycle.png) no-repeat;
+    background-size: contain;
+}
+
+.animal-point {
+    height: 72px;
+    width: 72px;
+    background: url(/works/goGreen/img/animal.png) no-repeat;
+    background-size: contain;
+}
+
 
 /* services testimonials */
 
@@ -537,6 +631,12 @@ h3 {
     font-size: 64px;
     text-align: center;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #7DA85D;    
 }
 
 p {

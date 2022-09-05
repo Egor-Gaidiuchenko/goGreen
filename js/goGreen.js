@@ -1,3 +1,2 @@
 // Tabs
-
-const tabs = document.query
+// services small screen showing text by click
