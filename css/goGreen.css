@@ -604,6 +604,274 @@
     justify-content: space-around;
 }
 
+/* blog */
+
+.blog > .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* posts */
+
+.posts {
+    height: auto;
+    width: 575px;   
+}
+
+.post {
+    height: 880px;
+    width: 575px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+}
+
+.post-photo {
+    width: auto;
+    height: 228px;
+}
+
+#photo-post1 {
+    background: url(/works/goGreen/img/post-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#photo-post2 {
+    background: url(/works/goGreen/img/post-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#photo-post3 {
+    background: url(/works/goGreen/img/post-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.post-info {
+    width: 300px;
+    height: 32px;
+    margin: 24px auto 16px 27px;
+    display: flex;
+}
+
+.post-info > p {
+    font-size: 16px;
+}
+
+.post-name {
+    width: 40%;
+    height: 100%;
+    padding-left: 40px;
+    background-image: url(/works/goGreen/img/post-name.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    align-items: center;
+}
+
+.post-comments {
+    width: auto;
+    height: 100%;
+    padding-left: 40px;
+    background-image: url(/works/goGreen/img/post-comments.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    align-items: center;
+}
+
+.post-text {
+    height: 400px;
+    padding: 0 40px;
+}
+
+.post-text > p {
+    width: 441px;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.read-more-button {
+    width: 137px;
+    height: 54px;
+    margin: 33px 70px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #7DA85D;
+    border-radius: 16px;
+    border: none;
+    align-self: flex-end;
+}
+
+/* local navigation */
+
+.local-nav {
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* recent posts */
+
+.recent-posts {
+    width: auto;
+    height: 390px;
+    margin: 138px 0 88px;
+
+}
+
+.recent-posts > .service-line,
+.flick-photos > .service-line {
+    width: 65px;
+    height: 14px;
+    border-bottom: 2px solid #7DA85D;
+    margin-left: 25px;
+}
+
+.recent-post {
+    width: auto;
+    height: 90px;
+    display: flex;
+    margin-top: 24px;
+}
+
+.recent-post-text > h6 {
+    margin-bottom: 12px;
+}
+
+.recent-post-icon {
+    width: 90px;
+    height: 90px;
+    margin-right: 24px;
+}
+
+#recent-post1 {
+    background: url(/works/goGreen/img/recent-post-1.jpg) center no-repeat;
+    background-size: cover;    
+}
+#recent-post2 {
+    background: url(/works/goGreen/img/recent-post-2.jpg) center no-repeat;
+    background-size: cover;
+}
+#recent-post3 {
+    background: url(/works/goGreen/img/recent-post-3.jpg) center no-repeat;
+    background-size: cover;    
+}
+
+.recent-post-date {
+    color: #D9D9D9;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-self: center;
+}
+
+/* flick photos */
+
+.flick-photos {
+    width: 310px;
+    height: auto;
+    margin-bottom: 88px;
+}
+
+.flick-photos > .service-line {
+    margin-bottom: 14px;
+}
+
+.photos {
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 90px;
+    height: 90px;
+}
+
+#photo1 {
+    background: url(/works/goGreen/img/photo-1.jpg) center no-repeat;
+    background-size: cover;
+}
+#photo2 {
+    background: url(/works/goGreen/img/photo-2.jpg) center no-repeat;
+    background-size: cover;
+}
+#photo3 {
+    background: url(/works/goGreen/img/photo-3.jpg) center no-repeat;
+    background-size: cover;
+}
+#photo4 {
+    background: url(/works/goGreen/img/photo-4.jpg) center no-repeat;
+    background-size: cover;
+}
+#photo5 {
+    background: url(/works/goGreen/img/photo-5.jpg) center no-repeat;
+    background-size: cover;
+}
+#photo6 {
+    background: url(/works/goGreen/img/photo-6.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* tags */
+
+.tags {
+    width: 420px;
+    height: auto;
+}
+
+.tags > .service-line {
+    width: 50px;
+    height: 14px;
+    border-bottom: 2px solid #7DA85D;
+    margin-bottom: 35px;
+}
+
+.current-tags {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0;
+}
+
+.left-collumn,
+.right-collumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-collumn {
+    justify-content: space-between;
+}
+
+.right-collumn {
+    justify-content: space-around;
+}
+
+.tag {
+    width: 200px;
+    height: 54px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    color: #545454;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* utility */
 
 .hide {
@@ -624,19 +892,32 @@ h2 {
     font-size: 48px;
     line-height: 58px;
     margin: 14px auto 6px;
+    font-family: 'Lora';
 }
 
 h3 {
     font-weight: 700;
     font-size: 64px;
     text-align: center;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); 
 }
 
 h4 {
     font-weight: 600;
     font-size: 24px;
-    color: #7DA85D;    
+    color: #7DA85D;     
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;  
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;  
 }
 
 p {
@@ -644,5 +925,5 @@ p {
     font-size: 24px;
     color: #545454;
     line-height: 43px;
-    border: none;
+    border: none    ;
 }
