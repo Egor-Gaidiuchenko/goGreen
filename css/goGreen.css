@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;7p00&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -824,7 +825,7 @@
 /* tags */
 
 .tags {
-    width: auto;
+    width: 420px;
     height: auto;
 }
 
@@ -868,6 +869,75 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* contact us */
+
+.contact > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-person {
+    height: 310px;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.contact-photo {
+    width: 216px;
+    height: 216px;
+}
+
+#contact-photo-1 {
+        background: url(/works/goGreen/img/contact-1.png) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;        
+}
+#contact-photo-2 {
+        background: url(/works/goGreen/img/contact-2.png) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+#contact-photo-3 {
+        background: url(/works/goGreen/img/contact-3.png) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+#contact-photo-4 {
+        background: url(/works/goGreen/img/contact-4.png) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+#contact-photo-5 {
+        background: url(/works/goGreen/img/contact-5.png) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+#contact-photo-6 {
+        background: url(/works/goGreen/img/contact-6.png) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.contact-name {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 /* utility */
