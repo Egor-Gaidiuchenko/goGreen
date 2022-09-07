@@ -615,12 +615,12 @@
 
 .posts {
     height: auto;
-    width: 575px;   
+    width: 50%;   
 }
 
 .post {
     height: 880px;
-    width: 575px;
+    width: auto;
     margin: 40px 0;
     display: flex;
     flex-direction: column;
@@ -684,12 +684,12 @@
 }
 
 .post-text {
-    height: 400px;
+    height: auto;
     padding: 0 40px;
 }
 
 .post-text > p {
-    width: 441px;
+    width: auto;
     font-size: 32px;
     line-height: 39px;
 }
@@ -711,7 +711,7 @@
 
 .local-nav {
     height: auto;
-    width: 400px;
+    width: auto;
     display: flex;
     flex-direction: column;
 }
@@ -788,7 +788,6 @@
     height: 200px;
     display: flex;
     justify-content: space-between;
-    align-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -825,7 +824,7 @@
 /* tags */
 
 .tags {
-    width: 420px;
+    width: auto;
     height: auto;
 }
 
@@ -848,7 +847,6 @@
 .right-collumn {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .left-collumn {

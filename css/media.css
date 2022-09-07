@@ -427,3 +427,86 @@
         font-size: 30px; 
     }
 }
+
+/* blog */
+
+@media screen and (max-width: 1100px) {
+    .local-nav {
+        margin-left: 20px;
+    }
+
+    .post {
+        height: auto;
+    }
+}
+@media screen and (max-width: 900px) {
+    .post-info {
+        height: auto;
+        flex-direction: column;
+    }
+    .post-name,
+    .post-comments {
+        height: 32px;
+        padding-left: 50px;
+        margin-bottom: 5px;
+    }
+    .current-tags {
+        flex-direction: column;
+        justify-content: start;
+    }
+    .tag {
+        margin-bottom: 20px;
+    }
+    .recent-post-icon {
+        display: none;
+    }
+    .flick-photos {
+        width: auto;
+    }
+    .photos {
+        height: auto;
+        width: 200px;
+    }
+    .photo {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .blog > .container {
+        flex-direction: column;
+    }
+    .posts {
+        width: auto;
+    }
+    .local-nav {
+        margin: 0;
+        align-items: center;
+    }
+    .recent-post-icon {
+        display: flex;
+    }
+    .photos {
+        width: 310px;
+        height: 200p;
+    }
+}
+@media screen and (max-width: 450px) {
+    .recent-post-icon {
+        display: none;
+    }
+}
+@media screen and (max-width: 350px) {
+    .photos {
+        width: 200px;
+        height: 310px;
+    }
+    .read-more-button {
+        margin: 33px auto;
+    }
+    .post-info {
+        width: auto;
+    }
+    .post-comments > p {
+        font-size: 22px;
+    }
+}
