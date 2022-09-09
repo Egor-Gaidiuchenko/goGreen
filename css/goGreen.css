@@ -276,8 +276,10 @@
 }
 
 .home-content {
-    width: 100%;
-    margin: 94px auto auto;
+    width: 1000px;
+    height: 100%;
+    margin: 94px auto;
+    padding-bottom: 50px;
 }
 
 .home::before {
@@ -327,10 +329,6 @@
     background-color: #7DA85D;
     border-radius: 16px;
     border: none;
-}
-
-.home-content > .join-button {
-    margin-bottom: 50px;
 }
 
 /* main css */

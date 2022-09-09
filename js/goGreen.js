@@ -33,12 +33,12 @@ const burger = document.querySelector('.menu'),
       burgerMenu = document.querySelector('.burger'),
       hiddenMenu = document.querySelector('.hidden-menu'),
       hiddenNavItem = document.querySelectorAll('.hidden-nav-item');
-      
+
 burger.addEventListener('click', () => {
     burgerMenu.classList.toggle('hide');
     document.body.classList.toggle('lock');
 });
-
+// починить прокрутку (из-за body.toggle)
 burgerMenu.addEventListener('click', (event) => {
     const target = event.target;
 
@@ -52,7 +52,15 @@ burgerMenu.addEventListener('click', (event) => {
                 tabs[i].classList.add('hide');
             }
         });
-
-        burgerMenu.classList.add('hide');
     }
+
+    if (hiddenNavItem[0].classList.contains('hidden-nav-checked')) {
+        footer.classList.add('hide');
+    } else {
+        footer.classList.remove('hide');
+    }
+
+    document.body.classList.toggle('lock');
+
+    burgerMenu.classList.add('hide');
 });
