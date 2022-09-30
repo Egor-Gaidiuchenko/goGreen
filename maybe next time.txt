@@ -1,0 +1,4 @@
+modal for join us button with name and email form
+contact us if social buttons
+construct posts from database
+contact for admins forms

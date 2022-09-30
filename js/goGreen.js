@@ -38,7 +38,7 @@ burger.addEventListener('click', () => {
     burgerMenu.classList.toggle('hide');
     document.body.classList.toggle('lock');
 });
-// починить прокрутку (из-за body.toggle)
+
 burgerMenu.addEventListener('click', (event) => {
     const target = event.target;
 

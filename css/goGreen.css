@@ -700,7 +700,7 @@
 }
 
 .post-info > p {
-    font-size: 16px;
+    font-size: 1px;
 }
 
 .post-name {
@@ -725,6 +725,10 @@
     background-position: left;
     display: flex;
     align-items: center;
+}
+
+.post-comments > p {
+    font-size: 22px;
 }
 
 .post-text {
