@@ -53,7 +53,7 @@
 .logo {
     width: 90px;
     height: 102px;
-    background-image: url(/portfolio/goGreen/img/logo.png);
+    background-image: url(../img/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -99,6 +99,10 @@
     cursor: pointer;
 }
 
+.nav-item:hover {
+    color: #7DA85D;
+}
+
 .nav-checked {
     color: #7DA85D;
     text-decoration: underline;
@@ -109,7 +113,7 @@
 .menu {
     height: 50px;
     width: 50px;
-    background-image: url(/portfolio/goGreen/img/menu-burger.png);
+    background-image: url(../img/menu-burger.png);
     background-size: cover;
     z-index: 1;
     display: none;
@@ -163,7 +167,7 @@
 .footer-plant {
     width: 100%;
     flex-grow: 1;
-    background: url(/portfolio/goGreen/img/leafs-bg.png) repeat-x;
+    background: url(../img/leafs-bg.png) repeat-x;
     background-size: auto auto;
     display: flex;
     justify-content: center;
@@ -205,7 +209,7 @@
     height: 48px;
     width: 48px;
     border-radius: 50%;
-    background: url(/portfolio/goGreen/img/telegram.png)  no-repeat;    
+    background: url(../img/telegram.png)  no-repeat;    
     background-size: cover;
 }
 
@@ -213,7 +217,7 @@
     height: 48px;
     width: 48px;
     border-radius: 50%;
-    background: url(/portfolio/goGreen/img/pinterest.png) no-repeat;
+    background: url(../img/pinterest.png) no-repeat;
     background-size: cover;
 }
 
@@ -221,7 +225,7 @@
     height: 48px;
     width: 48px;
     border-radius: 50%;
-    background: url(/portfolio/goGreen/img/mail.png)  no-repeat;    
+    background: url(../img/mail.png)  no-repeat;    
     background-size: cover;
 }
 
@@ -229,7 +233,7 @@
     height: 48px;
     width: 48px;
     border-radius: 50%;
-    background: url(/portfolio/goGreen/img/watsapp.png) no-repeat;
+    background: url(../img/watsapp.png) no-repeat;
     background-size: cover;
 }
 
@@ -239,7 +243,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(/portfolio/goGreen/img/footer.jpg);
+    background-image: url(../img/footer.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto auto;
@@ -271,7 +275,7 @@
 .home {
     width: 100%;
     height: auto;
-    background-image: url(/portfolio/goGreen/img/homeBackground.jpg);
+    background-image: url(../img/homeBackground.jpg);
     background-size: cover;
     background-position: right top;
     padding-top: 151px;
@@ -350,7 +354,7 @@
     content: "";
     width: 100%;
     height: 697px;
-    background: url(/portfolio/goGreen/img/about-top.png) no-repeat;
+    background: url(../img/about-top.png) no-repeat;
     background-size: 100% 100%;
     background-position: right top;
     position: absolute;
@@ -391,7 +395,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url(/portfolio/goGreen/img/about-top2.png);
+    background-image: url(../img/about-top2.png);
     background-size: auto 130%;
     background-repeat: no-repeat;
     background-position: 0 -250px;
@@ -422,7 +426,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/portfolio/goGreen/img/about-top3.png);
+    background-image: url(../img/about-top3.png);
     background-size: auto 150%;
     background-repeat: no-repeat;
     background-position: bottom right -200px;
@@ -494,7 +498,7 @@
     width: 424px;
     display: flex;
     justify-content: center;
-    background-image: url(/portfolio/goGreen/img/service-plant.png);
+    background-image: url(../img/service-plant.png);
     background-size: 150% auto;
     background-repeat: no-repeat;
     background-position: left -100px top 20px;
@@ -564,42 +568,42 @@
 .wind-point {
     height: 72px;
     width: 72px;
-    background: url(/portfolio/goGreen/img/wind.png) no-repeat;
+    background: url(../img/wind.png) no-repeat;
     background-size: contain;
 }
 
 .eco-point {
     height: 72px;
     width: 72px;
-    background: url(/portfolio/goGreen/img/eco.png) no-repeat;
+    background: url(../img/eco.png) no-repeat;
     background-size: contain;
 }
 
 .protect-point {
     height: 54px;
     width: 54px;
-    background: url(/portfolio/goGreen/img/protect.png) no-repeat;
+    background: url(../img/protect.png) no-repeat;
     background-size: contain;
 }
 
 .water-point {
     height: 72px;
     width: 72px;
-    background: url(/portfolio/goGreen/img/water.png) no-repeat;
+    background: url(../img/water.png) no-repeat;
     background-size: contain;
 }
 
 .recycle-point {
     height: 72px;
     width: 72px;
-    background: url(/portfolio/goGreen/img/recycle.png) no-repeat;
+    background: url(../img/recycle.png) no-repeat;
     background-size: contain;
 }
 
 .animal-point {
     height: 72px;
     width: 72px;
-    background: url(/portfolio/goGreen/img/animal.png) no-repeat;
+    background: url(../img/animal.png) no-repeat;
     background-size: contain;
 }
 
@@ -634,7 +638,7 @@
 .testimonial-photo {
     width: 280px;
     height: 280px;
-    background-image: url(/portfolio/goGreen/img/testamental-photo.png);
+    background-image: url(../img/testamental-photo.png);
     background-size: cover;
     border-radius: 50%;
     margin-right: 20px;
@@ -677,17 +681,17 @@
 }
 
 #photo-post1 {
-    background: url(/portfolio/goGreen/img/post-1.jpg) no-repeat;
+    background: url(../img/post-1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 #photo-post2 {
-    background: url(/portfolio/goGreen/img/post-2.jpg);
+    background: url(../img/post-2.jpg);
     background-size: cover;
     background-position: center;
 }
 #photo-post3 {
-    background: url(/portfolio/goGreen/img/post-3.jpg);
+    background: url(../img/post-3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -707,7 +711,7 @@
     width: 40%;
     height: 100%;
     padding-left: 40px;
-    background-image: url(/portfolio/goGreen/img/post-name.png);
+    background-image: url(../img/post-name.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -719,7 +723,7 @@
     width: auto;
     height: 100%;
     padding-left: 40px;
-    background-image: url(/portfolio/goGreen/img/post-comments.png);
+    background-image: url(../img/post-comments.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -800,15 +804,15 @@
 }
 
 #recent-post1 {
-    background: url(/portfolio/goGreen/img/recent-post-1.jpg) center no-repeat;
+    background: url(../img/recent-post-1.jpg) center no-repeat;
     background-size: cover;    
 }
 #recent-post2 {
-    background: url(/portfolio/goGreen/img/recent-post-2.jpg) center no-repeat;
+    background: url(../img/recent-post-2.jpg) center no-repeat;
     background-size: cover;
 }
 #recent-post3 {
-    background: url(/portfolio/goGreen/img/recent-post-3.jpg) center no-repeat;
+    background: url(../img/recent-post-3.jpg) center no-repeat;
     background-size: cover;    
 }
 
@@ -847,27 +851,27 @@
 }
 
 #photo1 {
-    background: url(/portfolio/goGreen/img/photo-1.jpg) center no-repeat;
+    background: url(../img/photo-1.jpg) center no-repeat;
     background-size: cover;
 }
 #photo2 {
-    background: url(/portfolio/goGreen/img/photo-2.jpg) center no-repeat;
+    background: url(../img/photo-2.jpg) center no-repeat;
     background-size: cover;
 }
 #photo3 {
-    background: url(/portfolio/goGreen/img/photo-3.jpg) center no-repeat;
+    background: url(../img/photo-3.jpg) center no-repeat;
     background-size: cover;
 }
 #photo4 {
-    background: url(/portfolio/goGreen/img/photo-4.jpg) center no-repeat;
+    background: url(../img/photo-4.jpg) center no-repeat;
     background-size: cover;
 }
 #photo5 {
-    background: url(/portfolio/goGreen/img/photo-5.jpg) center no-repeat;
+    background: url(../img/photo-5.jpg) center no-repeat;
     background-size: cover;
 }
 #photo6 {
-    background: url(/portfolio/goGreen/img/photo-6.jpg) center no-repeat;
+    background: url(../img/photo-6.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -954,32 +958,32 @@
 }
 
 #contact-photo-1 {
-        background: url(/portfolio/goGreen/img/contact-1.png) center no-repeat;
+        background: url(../img/contact-1.png) center no-repeat;
     background-size: cover;
     border-radius: 50%;        
 }
 #contact-photo-2 {
-        background: url(/portfolio/goGreen/img/contact-2.png) center no-repeat;
+        background: url(../img/contact-2.png) center no-repeat;
     background-size: cover;
     border-radius: 50%;
 }
 #contact-photo-3 {
-        background: url(/portfolio/goGreen/img/contact-3.png) center no-repeat;
+        background: url(../img/contact-3.png) center no-repeat;
     background-size: cover;
     border-radius: 50%;
 }
 #contact-photo-4 {
-        background: url(/portfolio/goGreen/img/contact-4.png) center no-repeat;
+        background: url(../img/contact-4.png) center no-repeat;
     background-size: cover;
     border-radius: 50%;
 }
 #contact-photo-5 {
-        background: url(/portfolio/goGreen/img/contact-5.png) center no-repeat;
+        background: url(../img/contact-5.png) center no-repeat;
     background-size: cover;
     border-radius: 50%;
 }
 #contact-photo-6 {
-        background: url(/portfolio/goGreen/img/contact-6.png) center no-repeat;
+        background: url(../img/contact-6.png) center no-repeat;
     background-size: cover;
     border-radius: 50%;
 }
