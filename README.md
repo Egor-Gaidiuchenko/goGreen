@@ -1,5 +1,5 @@
 # Go Green
-This is my very first project on GitHub. It is landing page for some environment protection organization. Here I learn markdown using Flexbox. 
+This is my very first project on GitHub. This is landing page for environment protection organization. Here I learn markdown using Flexbox. 
 
 ### Technologies
 
